@@ -1,0 +1,129 @@
+body {
+  color: #c2c2c2;
+  background-color: #fff; 
+}
+
+a,a:hover{
+  color:#ffffff;
+}
+.sidebar{
+  background: #191c20;
+}
+
+.sidebar .nav .nav-item .nav-link{
+  color: #a3a3a3;
+}
+
+.sidebar .nav .nav-item.nav-category .nav-link{
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.text-light {
+  color: #ffffff !important; }
+
+  .sidebar .nav .nav-item.account-dropdown .nav-link .menu-arrow {
+    color: #ffffff; } 
+    
+.sidebar .sidebar-brand-wrapper {    
+  background: #191c20;
+}
+
+.sidebar .nav .nav-item.active > .nav-link {
+  background: #0e0f12; }
+
+  .sidebar .nav:not(.sub-menu) > .nav-item:hover:not(.nav-category):not(.account-dropdown) > .nav-link {
+    background: #121417;
+    color: #ffffff;
+  }
+  .navbar {
+    background: #191C20;
+  }
+
+  .navbar .navbar-menu-wrapper {
+    color: #ffffff;
+  } 
+
+  .navbar .navbar-menu-wrapper .search input {
+    background: #191c20;
+  }
+
+.form-control, .asColorPicker-input, .dataTables_wrapper select, .jsgrid .jsgrid-table .jsgrid-filter-row input[type=text],
+.jsgrid .jsgrid-table .jsgrid-filter-row select, .jsgrid .jsgrid-table .jsgrid-filter-row input[type=number], .select2-container--default .select2-selection--single, .select2-container--default .select2-selection--single .select2-search__field, .typeahead,
+.tt-query,
+.tt-hint {
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  height: calc(2.25rem + 2px);
+  font-weight: normal;
+  font-size: 0.875rem;
+  padding: 0.56rem 0.75rem;
+  background-color: #2A3038;
+  border-radius: 4px;
+  color: #ffffff; }
+
+  .form-control:focus, .asColorPicker-input:focus, .dataTables_wrapper select:focus, .jsgrid .jsgrid-table .jsgrid-filter-row input:focus[type=text],
+  .jsgrid .jsgrid-table .jsgrid-filter-row select:focus, .jsgrid .jsgrid-table .jsgrid-filter-row input:focus[type=number], .select2-container--default .select2-selection--single:focus, .select2-container--default .select2-selection--single .select2-search__field:focus, .typeahead:focus,
+  .tt-query:focus,
+  .tt-hint:focus {
+    border: 1px solid rgba(71, 164, 71, 0.5);
+    background-color: #2A3038; }
+
+  .content-wrapper {
+    background: #2e2f32;
+  } 
+
+  .navbar .navbar-menu-wrapper{
+    -webkit-box-shadow: 0 19px 34px -15px #2e2f32;
+    -moz-box-shadow: 0 19px 34px -15px #2e2f32;
+  } 
+
+  .card{
+  background-color: #191c20;
+  } 
+
+  .table-dark,
+.table-dark > th,
+.table-dark > td {
+  background-color: #0c0c0c; }
+  .table-dark th,
+  .table-dark td,
+  .table-dark thead th {
+    border-color: #454d55; }
+  .table-dark {
+    color: #fff;
+  } 
+
+  .page-title{
+    color: #c2c2c2;
+  } 
+
+  .form-control:focus, select.form-control{
+    color: #ffffff;
+}
+
+.modal-content {
+  background-color: #2e2f32;
+}
+.modal-header{
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+.modal-footer{
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.sidebar-icon-only .sidebar .nav .nav-item.hover-open .nav-link .menu-title {
+  background: #121417;
+}
+.sidebar .nav .nav-item.active > .nav-link .menu-title {
+  color: #ffffff; }
+
+.sidebar .nav .nav-item .menu-icon{
+  background: #0d0d0d;
+}
+.sidebar .nav .nav-item .menu-icon i {
+  font-size: 0.875rem; }
+
+.form-control:disabled, .asColorPicker-input:disabled, .dataTables_wrapper select:disabled, .jsgrid .jsgrid-table .jsgrid-filter-row input:disabled[type=text], .jsgrid .jsgrid-table .jsgrid-filter-row select:disabled, .jsgrid .jsgrid-table .jsgrid-filter-row input:disabled[type=number], .select2-container--default .select2-selection--single:disabled, .select2-container--default .select2-selection--single .select2-search__field:disabled, .typeahead:disabled, .tt-query:disabled, .tt-hint:disabled, .form-control[readonly], .asColorPicker-input[readonly], .dataTables_wrapper select[readonly], .jsgrid .jsgrid-table .jsgrid-filter-row input[readonly][type=text], .jsgrid .jsgrid-table .jsgrid-filter-row select[readonly], .jsgrid .jsgrid-table .jsgrid-filter-row input[readonly][type=number], .select2-container--default .select2-selection--single[readonly], .select2-container--default .select2-selection--single .select2-search__field[readonly], .typeahead[readonly], .tt-query[readonly], .tt-hint[readonly]{
+  background-color: #1a1c21 !important;
+  opacity: 1 !important;
+  color: #595c63 !important;
+}
